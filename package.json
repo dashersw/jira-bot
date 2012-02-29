@@ -1,0 +1,15 @@
+{
+    "name": "jira-bot",
+    "version": "0.0.1",
+    "description": "An XMPP bot that helps you use JIRA effectively",
+    "contributors": [{ "name": "Armagan Amcalar", "email": "armagan@amcalar.com" }],
+    "homepage": "https://github.com/dashersw/jira-bot",
+    "directories" : { "lib" : "./lib" },
+    "main" : "./lib/jira-bot",
+    "engines": { "node": ">= 0.6.x" },
+    "dependencies": {
+    },
+    "devDependencies": {
+        "restler": ">=2.0.0"
+    }
+}
