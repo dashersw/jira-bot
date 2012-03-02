@@ -5,11 +5,10 @@
     "contributors": [{ "name": "Armagan Amcalar", "email": "armagan@amcalar.com" }],
     "homepage": "https://github.com/dashersw/jira-bot",
     "directories" : { "lib" : "./lib" },
-    "main" : "./lib/jira-bot",
+    "main" : "./lib/jira-bot.js",
     "engines": { "node": ">= 0.6.x" },
     "dependencies": {
-    },
-    "devDependencies": {
-        "restler": ">=2.0.0"
+        "restler": ">=2.0.0",
+        "simple-xmpp": ">=0.1.5beta"
     }
 }
