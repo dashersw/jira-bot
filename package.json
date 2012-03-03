@@ -3,7 +3,10 @@
     "description": "An XMPP bot that helps you use JIRA effectively",
     "author": "Armagan Amcalar <armagan@amcalar.com>",
     "version": "0.1.0",
-    "homepage": "https://github.com/dashersw/jira-bot",
+    "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/dashersw/jira-bot.git"
+    },
     "main" : "./lib/jira-bot.js",
     "engine": { "node": ">= 0.6.x" },
     "dependencies": {
