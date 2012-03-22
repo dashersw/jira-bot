@@ -1,0 +1,12 @@
+if (fail)
+ p Sorry, try again.
+ p Remember, Jira might need you to log in with a captcha if you abuse this site.
+
+form(method='post')
+    label(for='username') Jira username:
+    input#username(type='text', name='username', value=username)
+    br
+    label(for='password') Jira password:
+    input#password(type='password', name='password')
+    br
+    input(type='submit')
