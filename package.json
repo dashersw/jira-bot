@@ -11,6 +11,8 @@
     "engine": { "node": ">= 0.6.x" },
     "dependencies": {
         "restler": "git://github.com/dashersw/restler.git",
-        "simple-xmpp": ">=0.1.5beta"
+        "simple-xmpp": ">=0.1.5beta",
+        "express": "2.5.8",
+        "jade": ">= 0.0.1"
     }
 }
